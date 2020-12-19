@@ -21,17 +21,41 @@ body {
     height: 528px;
     width: 408px;
     overflow: hidden;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.07);
 }
 
 img#castle {
     width: 100%;
 
 }
+
 #preview {
     height: 15em;
     overflow: hidden;
+
 }
 
-#text {
+#text, #En_Savoir_Plus {
     padding: 1em 44px 1em 44px; 
+
+}
+
+#text p {
+    font-size: 0.80em;
+}
+
+#En_Savoir_Plus button {
+    background-color:#49546a;
+    border: 0;
+    padding: 0.75em 1em;
+    color:white;
+}
+    
+#En_Savoir_Plus button span::before{
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    content:'';
+    background-image: url(./images/card-content-button-shape-copy@3x.png);
+    background-size: 0.5em 0.5em;
 }
